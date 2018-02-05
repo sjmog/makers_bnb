@@ -6,6 +6,6 @@ get '/' do
   erb :index
 end
 
-post '/usurs' do
-  session[:usur] = params[:name]
+post '/users' do
+  session[:user] = params[:name]
 end
